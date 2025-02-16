@@ -3,9 +3,6 @@ import pandas as pd
 import numpy as np
 import joblib
 import plotly.express as px
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import StandardScaler, LabelEncoder
 
 # Judul aplikasi
 st.title("Aplikasi Prediksi Dropout Mahasiswa")
@@ -48,7 +45,7 @@ for col in numerical_columns:
         input_df[col] = 0  # Mengisi kolom yang hilang dengan nilai default
 
 # Memastikan urutan kolom sesuai dengan data pelatihan
-input_df = input_df[numerical_columns]
+input_df = input_df.reindex(columns=numerical_columns, fill_value=0)
 
 # Melakukan scaling pada fitur numerikal
 try:
