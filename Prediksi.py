@@ -3,6 +3,9 @@ import pandas as pd
 import numpy as np
 import joblib
 import plotly.express as px
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler, LabelEncoder
 
 # Judul aplikasi
 st.title("Aplikasi Prediksi Dropout Mahasiswa")
