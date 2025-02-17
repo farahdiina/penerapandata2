@@ -104,7 +104,7 @@ Interaksi dengan Aplikasi
    - Dashboard juga akan menampilkan distribusi status mahasiswa dalam bentuk visualisasi menggunakan Plotly.
 
 Dengan sistem ini, pihak akademik dapat dengan mudah melakukan analisis prediktif dan mengambil tindakan lebih awal terhadap mahasiswa yang berisiko mengalami dropout.
-Prototype dapat dilihat di link berikut : https://tugasdata2-bycmbvfxxapp5yjeosgtecw.streamlit.app/
+Prototype dapat dilihat di link berikut : https://submisiondata2-tjgphrpwbarcgyjlqxdjuf.streamlit.app/
 
 ## Conclusion
 Proyek ini bertujuan untuk membantu Jaya Jaya Institut dalam mendeteksi mahasiswa yang berisiko mengalami dropout menggunakan teknik machine learning. Dari analisis yang dilakukan, faktor utama yang mempengaruhi dropout mencakup biaya kuliah, jumlah mata kuliah yang diambil, kehadiran di semester awal, serta riwayat pendidikan sebelumnya. Model machine learning yang dikembangkan mampu memberikan prediksi dengan akurasi yang baik dan telah diintegrasikan ke dalam dashboard interaktif berbasis Streamlit, memungkinkan pihak akademik untuk menganalisis data serta memprediksi status mahasiswa secara real-time. Dengan sistem ini, institusi dapat melakukan intervensi lebih awal melalui bimbingan khusus, sehingga membantu mengurangi angka dropout dan meningkatkan tingkat kelulusan. Ke depannya, model ini dapat terus dikembangkan dengan dataset yang lebih besar serta penambahan fitur-fitur baru agar prediksi semakin akurat dan bermanfaat.
